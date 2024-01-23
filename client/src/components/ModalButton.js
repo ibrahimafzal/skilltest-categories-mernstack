@@ -14,7 +14,7 @@ const ModalButton = ({ label, title, Content, Button }) => {
         <Button toggleModal={toggleModal} />
       ) : (
         <button
-          className="inline-flex justify-center py-2 px-4 ml-3 text-md font-medium text-white rounded-md border border-transparent bg-blue-500  hover:bg-blue-600"
+          className="inline-flex justify-center py-2 px-4 text-md font-medium text-white rounded-md border border-transparent bg-blue-500  hover:bg-blue-600"
           onClick={() => toggleModal()}
         >
           {label}
